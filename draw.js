@@ -1,6 +1,8 @@
 var lock = true;
 function start(){
 document.getElementById("button").src = "button.png";
+document.getElementById("p1").src = "red.jpg";
+document.getElementById("p2").src = "red.jpg";
 var randomTimer = Math.floor(Math.random() * (5 - 2)) + 2;
 setTimeout(function() {
 	document.getElementById("p1").src = "green.jpg";
